@@ -1,0 +1,3 @@
+#!/bin/bash
+filename="iacta"; IFS=$'\n' read -r -d '' -a lines < "$filename"; echo "${lines[2]}"
+
